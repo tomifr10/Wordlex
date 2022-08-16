@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    color: white;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: fit-content;
+    min-height: fit-content;
+    margin: auto;
+}
+
+.div-words {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem;
+}
+
+.tile {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 .2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: white;
+    border: 1px solid black;
+    font-family: 'Rubik Dirt', cursive;
+}
+.keys-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    padding: .5rem;
+    gap: .5rem;
+    width: 32%;
+    margin: 2rem auto 0;
+}
+
+.keyButton {
+    width: fit-content;
+    background-color: #d3d6da;
+    padding: .5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.reset {
+    width: fit-content;
+    padding: .5rem;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    cursor: pointer;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.notification {
+    color: white;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+}
